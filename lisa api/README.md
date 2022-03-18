@@ -2,7 +2,7 @@
 
 ## 1. Install Python
 
-Download [Pyhton](https://www.python.org/): version 3.9.5 
+Download [Python](https://www.python.org/): version 3.9.5 
 
 Window: 
 ```
