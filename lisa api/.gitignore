@@ -1,0 +1,10 @@
+database/
+dataset/
+document_api/
+document_project/
+db.sqlite3
+manage.py
+.env
+api/test.py
+api/accuracy.py
+api/__pycache__/
