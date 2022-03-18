@@ -1,0 +1,24 @@
+add fucntion in volt
+
++ loader.php ใน $loader->registerDirs
+$config->application->libraryDir
+--------------------------------------------
++ service.php ใน $view->registerEngines([
+$compiler = $volt->getCompiler();
+$compiler->addFunction(
+'convertCommaNoneDecimal',
+function ($resolvedArgs, $exprArgs) use ($compiler) {
+return 'Extension::convertCommaNoneDecimal('. $resolvedArgs .')';
+}
+);
+--------------------------------------------
++ library
+<?php
+use Phalcon\Mvc\Model;
+
+class Extension extends Model {
+public static function convertCommaNoneDecimal($amount){
+$amountNewFormat = number_format($amount, 0);
+return $amountNewFormat;
+}
+}

@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: RSU_Regular;
+}
+
+@font-face {
+    font-family: RSU_Regular;
+    src: url(../public/files/font/RSU_Regular.ttf);
+}
+
+@font-face {
+    font-family: RSU_BOLD;
+    src: url(../public/files/font/RSU_BOLD.ttf);
+}
+
+
+
+.blockForm {
+    position: relative;
+    top: 10%;
+    margin: auto;
+    padding: 0 48px;
+    padding-bottom: 48px;
+    /* margin-top: 100px; */
+    width: 480px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 10px 5px #dedede;
+    -moz-box-shadow: 0 0 10px 5px #DEDEDE;
+    box-shadow: 0 0 10px 5px #dedede;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header {
+    width: 100%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #5f9ea0;
+    text-align: center;
+    border: 1px solid #b0c4de;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+/* form {
+    width: 100%;
+    margin: 0 auto;
+
+    background: white;
+
+} */
+
+.homeheader {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.homecontent {
+    text-align: center;
+    padding-top: 3rem;
+    width: 100%;
+    background: #ccc;
+    height: 100vh;
+}
+
+.input-group {
+    margin: 0px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 38px;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+}
+
+
+input {
+    height: 38px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    /* background: #5f9ea0; */
+    border: none;
+    border-radius: 5px;
+}
+
+.error {
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success {
+    color: #3c763d;
+    background: #dff9d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+/* .alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1rem;
+    border: 1px solid transparent;
+} */
+
+/* .alert {
+            padding: 20px;
+            background-color: #f44336;
+            color: white;
+        } */
+
+.successMessage {
+    background-color: #04AA6D;
+
+    padding: 20px;
+    color: white;
+    opacity: 1;
+    /* margin-bottom: 15px; */
+    /* margin: 15px; */
+    width: 100%;
+}
+
+.noticeMessage {
+    background-color: #2196F3;
+
+    padding: 20px;
+    color: white;
+    opacity: 1;
+    /* margin-bottom: 15px; */
+    /* margin: 15px; */
+    width: 100%;
+}
+
+.warningMessage {
+    background-color: #ff9800;
+
+    padding: 20px;
+    color: white;
+    opacity: 1;
+    /* margin-bottom: 15px; */
+    /* margin: 15px; */
+    width: 100%;
+}
+
+.errorMessage {
+    background-color: red;
+
+    padding: 20px;
+    color: white;
+    opacity: 1;
+    /* margin-bottom: 15px; */
+    /* margin: 15px; */
+    width: 100%;
+}
+
+
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+    zoom: 1;
+    margin-top: 100px;
+}
+
+.newFormInput {
+    background: #FFFFFF;
+    border-radius: 46px;
+    width: 360px;
+    height: 36px;
+    padding: 20px;
+    margin: 10px 0px 10px 0px;
+}
+
+.bg {
+
+    /* The image used */
+    /* background-image: url("img_girl.jpg"); */
+
+    width: 100%;
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0px;
+}
