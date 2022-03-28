@@ -5,6 +5,7 @@ https://www.youtube.com/watch?v=1fwAQL1DfUE&ab_channel=MK
 
 # 2.Run XAMPP
 **you must import the database first**
+
 Start MySQL, Apache
 
 # 3.Run APP
